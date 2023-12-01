@@ -1,0 +1,5 @@
+print("Vücut kitke indeksinizi hesaplayalım:)")
+kg = float(input("Kilonuzu kg cinsinden giriniz:"))
+m = float(input("Boyunuzu metre cinsinden giriniz:"))
+vki = kg / (m**2)
+print("Vücut kitle indexsiniz: {:.2f}".format(vki))
