@@ -9,7 +9,7 @@ def fmuksayi(sayi):
         return
 
 
-for i in range(1, 1001):
-    muk = fmuksayi(i)
+for a in range(1, 1001):
+    muk = fmuksayi(a)
     if muk is not None:
         print(muk)
