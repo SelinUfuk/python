@@ -8,11 +8,11 @@ def tambolenleribulma(sayi):
 
 
 while True:
-    sayi = input("sayı:")
+    say = input("sayı:")
 
-    if sayi == 'q':
+    if say == 'q':
         print("Program sonlandırılıyor...")
         break
     else:
-        sayi = int(sayi)
-        print("Tam bölenler:", tambolenleribulma(sayi))
+        sayi = int(say)
+        print("Tam bölenler:", tambolenleribulma(say))
